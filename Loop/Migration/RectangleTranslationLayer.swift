@@ -25,6 +25,7 @@ enum RectangleTranslationLayer {
     /// Maps Rectangle direction keys to Loop's WindowDirection enum.
     private static let directionMapping: [String: WindowDirection] = [
         "bottomHalf": .bottomHalf,
+        "bottomLeft": .bottomLeftQuarter,
         "bottomRight": .bottomRightQuarter,
         "center": .center,
         "centerHalf": .horizontalCenterHalf,
